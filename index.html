@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <title>Web Application IZ268  </title>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="sweetalert/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="sweetalert/sweetalert.css">
+</head>
+<body>
+
+    <div id="googleMap"></div>
+    <div>
+        <table class="table table-striped" id="inputData">
+            <tr id='menuheader'>
+                <th class="positMenu">délka </th>
+                <th class="positMenu">šířka </th>
+                <th id='nameMenu' >název</th>
+                <th id='noteMenu'>poznámky</th>
+            </tr>
+            <tr id='menuContent'>
+                <th id="menuLatitude"></th>
+                <th id="menuLongitude"></th>
+                <th><input type="text"  id="nazev_input"></th>
+                <th><input type="text"  id="poznamky_input"></th>
+            </tr>
+        </table>
+        <button  type="button" class="btn btn-default" id="save">Uložit místo</button>
+        <button  type="button" class="btn btn-default" id="load">Nahrát uložená místa</button>
+    </div>
+
+    <div id='tableName'> Uložená místa</div>
+    <table class="table table-striped" id="content">
+        <tr class="place">
+            <th class="latitudeShort">Délka</th>
+            <th class="latitudeLong">Šířka</th>
+            <th class="longitude">Longitude</th>
+            <th class="longitudeLong">LongitudeLong</th>
+            <th>Název</th>
+            <th>Poznámky</th>
+        </tr>
+    </table>
+</body>
+

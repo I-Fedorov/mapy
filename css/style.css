@@ -1,0 +1,95 @@
+
+html, body {
+    height: 98%;
+}
+#content tr th{
+    width: 500px;
+    border: 1px solid black;
+    color: black;
+}
+#content {
+    margin: 5px;
+    width: 48%;
+}
+
+#inputData {
+    width: 48%;
+    margin-top: 20px;
+}
+
+.latitudeLong, .longitudeLong{
+
+    display: none;
+}
+
+
+#positMenu {
+    text-align: center;
+    width: 75px;
+}
+
+#nameMenu {
+    text-align: center;
+    width: 160px;
+}
+
+#noteMenu{
+    text-align: center;
+}
+
+
+#inputData tr th{
+
+    border: 1px solid black;
+    color: black;
+
+}
+#googleMap {
+    border: 2px solid black;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 50%;
+    height: 98%;
+}
+
+
+
+
+
+
+
+.place input{
+    display: none;
+}
+
+.table-bordered {
+    margin: 15px;
+    text-align: center;
+
+}
+
+
+
+#tableName{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight:bold;
+
+}
+
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #CFECF7;
+
+}
+
+#active {
+    background-color: #42ADE3;
+}
+
+
+
+
+
+
